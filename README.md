@@ -26,7 +26,7 @@ Work is organized into 10 themes. Each theme has a directory under `themes/` whe
 
 ### Benchmarking
 
-Help us understand the performance profiles of the default CVXPY solvers (Clarabel, OSQP, SCS, and HiGHS). TODO link each solver
+Help us understand the performance profiles of the default CVXPY solvers ([Clarabel](https://github.com/oxfordcontrol/Clarabel.rs), [OSQP](https://github.com/osqp/osqp), [SCS](https://github.com/cvxgrp/scs), and [HiGHS](https://github.com/ERGO-Code/HiGHS)).
 We will use your findings to improve automatic solver selection.
 
 Reference project:
@@ -47,6 +47,7 @@ Build new packages for energy/power systems.
 
 Reference projects:
 - [cvxpower](https://github.com/cvxgrp/cvxpower)
+- [EECO](https://github.com/we3lab/eeco)
 - [emhass](https://github.com/davidusb-geek/emhass)
 
 ### Engineering Design
@@ -64,6 +65,7 @@ Convex optimization is widely used in finance for portfolio construction. Build 
 Reference projects:
 - [Cvxportfolio](https://github.com/cvxgrp/cvxportfolio)
 - [PyPortfolioOpt](https://github.com/PyPortfolio/PyPortfolioOpt)
+- [Riskfolio-Lib](https://github.com/dcajasn/Riskfolio-Lib)
 
 ### Interfaces
 
@@ -87,20 +89,22 @@ Reference projects:
 - [cvxjs](https://github.com/SteveDiamond/cvxjs)
 - [cvxrust](https://github.com/SteveDiamond/cvxrust)
 
-### Non-Convex Optimization
+### Pure Optimization
 
-Build software for non-convex optimization on top of CVXPY.
-
-Reference projects:
-- [GCSOPT]
-- TODO other packages from people in the workshop
-
-### Phyical Sciences
-
-Use CVXPY in physical sciences such as biology, chemistry, or quantum physics.
+Build software for more complex optimization on top of CVXPY.
 
 Reference projects:
-- TODO quantum computing
+- [DBCP](https://github.com/nrgrp/dbcp)
+- [GCSOPT](https://github.com/TobiaMarcucci/gcsopt)
+- [pycvxset](https://github.com/merlresearch/pycvxset)
+- [MOCVXPY](https://github.com/salomonl/mocvxpy)
+
+### Physical Sciences
+
+Use CVXPY in physical sciences such as biology, chemistry, or (quantum) physics.
+
+Reference projects:
+- [qiskit](https://github.com/Qiskit/qiskit)
 
 ### Other
 
