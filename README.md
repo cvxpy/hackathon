@@ -129,4 +129,4 @@ To submit your project, create a markdown file in the appropriate `themes/<theme
 1. Pick your theme directory (e.g., `themes/energy/`)
 2. Create a file named after your project (e.g., `themes/energy/my-cool-project.md`)
 3. Use the format shown in [`TEMPLATE.md`](TEMPLATE.md)
-4. Commit and push
+4. Open a pull request adding your markdown file.
