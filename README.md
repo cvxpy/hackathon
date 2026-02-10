@@ -22,7 +22,7 @@ Install CVXPY before the event: <https://www.cvxpy.org/install/>
 
 ## Themes
 
-Work is organized into 10 themes. Each theme has a directory under `themes/` where teams should commit their work.
+Work is organized into 10 themes. Each theme has a directory under `themes/` where teams should commit links to their work and any design docs produced. See `themes/solver-benchmarks` for an example.
 
 ### Benchmarking
 
@@ -30,7 +30,7 @@ Help us understand the performance profiles of the default CVXPY solvers ([Clara
 We will use your findings to improve automatic solver selection.
 
 Reference project:
-- [solver-benchmarks](https://github.com/cvxgrp/solver-benchmarks)
+- [solver-benchmarks](https://github.com/cvxpy/solver-benchmarks)
 
 ### Developer Tools
 
