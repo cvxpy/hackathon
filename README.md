@@ -43,7 +43,7 @@ Reference projects:
 ### Energy
 
 Optimization is essential to the operation of electrical grids and other power systems.
-Build new packages for energy/power systems.
+Build new projects for energy/power systems.
 
 Reference projects:
 - [cvxpower](https://github.com/cvxgrp/cvxpower)
@@ -53,14 +53,14 @@ Reference projects:
 ### Engineering Design
 
 Many engineering design problems can be modeled as geometric programs or other types of convex programs.
-Build new packages for engineering design applications.
+Build new projects for engineering design applications.
 
 Reference projects:
 - [gpkit](https://github.com/convexengineering/gpkit)
 
 ### Finance
 
-Convex optimization is widely used in finance for portfolio construction. Build new finance packages leveraging CVXPY.
+Convex optimization is widely used in finance for portfolio construction. Build new finance projects leveraging CVXPY.
 
 Reference projects:
 - [Cvxportfolio](https://github.com/cvxgrp/cvxportfolio)
@@ -89,9 +89,10 @@ Reference projects:
 - [cvxjs](https://github.com/SteveDiamond/cvxjs)
 - [cvxrust](https://github.com/SteveDiamond/cvxrust)
 
-### Non-Convex Optimization
+### Optimization Extensions
 
-Build software for non-convex optimization on top of CVXPY, or other perspectives on convex optimization.
+Build projects leveraging extensions of CVXPY for other types of optimization, 
+such as GCSOPT for Graphs of Convex Sets.
 
 Reference projects:
 - [DBCP](https://github.com/nrgrp/dbcp)
@@ -123,4 +124,9 @@ _Discord link and channel info will be posted here before the event._
 
 ## Contributing
 
-Each team should commit their work into the appropriate `themes/<theme-name>/` directory. Create a subfolder for your project with a README describing what you built.
+To submit your project, create a markdown file in the appropriate `themes/<theme-name>/` directory:
+
+1. Pick your theme directory (e.g., `themes/energy/`)
+2. Create a file named after your project (e.g., `themes/energy/my-cool-project.md`)
+3. Use the format shown in [`TEMPLATE.md`](TEMPLATE.md)
+4. Commit and push
