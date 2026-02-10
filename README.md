@@ -89,9 +89,9 @@ Reference projects:
 - [cvxjs](https://github.com/SteveDiamond/cvxjs)
 - [cvxrust](https://github.com/SteveDiamond/cvxrust)
 
-### Pure Optimization
+### Non-Convex Optimization
 
-Build software for more complex optimization on top of CVXPY.
+Build software for non-convex optimization on top of CVXPY, or other perspectives on convex optimization.
 
 Reference projects:
 - [DBCP](https://github.com/nrgrp/dbcp)
