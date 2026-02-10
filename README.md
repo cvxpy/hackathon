@@ -73,7 +73,7 @@ Develop new ways to interact with CVXPY, such as visual editors, database integr
 
 Reference projects:
 - [CVXlab](https://cvxlab.readthedocs.io/en/latest/)
-- [cvxpy-or](https://github.com/cvxgrp/cvxpy-or)
+- [cvxpy-or](https://github.com/SteveDiamond/cvxpy-or)
 
 ### Languages
 
