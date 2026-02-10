@@ -1,6 +1,6 @@
 # CVXPY Hackathon 2026
 
-Welcome to the CVXPY Hackathon 2026! We are excited to see what you build with CVXPY.
+Welcome to the CVXPY Hackathon 2026! We are excited to see what you build!
 
 ## Setup
 
