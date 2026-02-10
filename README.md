@@ -38,7 +38,7 @@ Improve the CVXPY developer experience by building debugging and visualization t
 
 Reference projects:
 - [cvxpy-analyzer](https://github.com/cvxpy/cvxpyanalyzer)
-- [cvxpy-debug](https://github.com/cvxgrp/cvxpy-debug)
+- [cvxpy-debug](https://github.com/SteveDiamond/cvxpy-debug)
 
 ### Energy
 
