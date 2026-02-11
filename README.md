@@ -22,7 +22,7 @@ Install CVXPY before the event: <https://www.cvxpy.org/install/>
 
 ## Themes
 
-Work is organized into 10 themes. Each theme has a directory under `themes/` where teams should commit links to their work and any design docs produced. See `themes/benchmarking/solver-benchmarks.md` for an example.
+Work is organized into 10 themes. Each theme has a directory under `themes/` where teams should commit links to their work and any design docs produced.
 
 ### Benchmarking
 
