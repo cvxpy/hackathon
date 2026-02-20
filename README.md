@@ -20,9 +20,15 @@ Install CVXPY before the event: <https://www.cvxpy.org/install/>
 | 4:15 | Demos |
 | 5:15 | Wrap-up and closing |
 
+## Team Formation
+
+1. Browse the themes below and find one that interests you.
+2. Introduce yourself in the Discord channel for that theme.
+3. Form teams with others in the channel. Try to combine virtual and in-person attendees on each team.
+
 ## Themes
 
-Work is organized into 10 themes. Each theme has a directory under `themes/` where teams should commit links to their work and any design docs produced.
+Work is organized into 10 themes. Each theme has a Discord channel and a directory under `themes/` where teams should commit links to their work and any design docs produced.
 
 ### Benchmarking
 
