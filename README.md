@@ -10,15 +10,17 @@ Install CVXPY before the event: <https://www.cvxpy.org/install/>
 
 | Time | Activity |
 |------|----------|
-| 9:00 | Welcome and introductions |
+| 9:00 | Welcome and introductions (Zoom) |
 | 9:15 | Theme overview and team formation |
 | 9:45 | Hacking begins |
-| 12:00 | Mid-Day Check-In |
+| 12:00 | Mid-Day Check-In (Zoom) |
 | 12:30 | Lunch break |
 | 1:15 | Hacking continues |
 | 4:00 | Demo prep |
-| 4:15 | Demos |
+| 4:15 | Demos (Zoom) |
 | 5:15 | Wrap-up and closing |
+
+We will use Zoom for the introduction, mid-day check-in, and demos.
 
 ## Team Formation
 
