@@ -22,13 +22,13 @@ Install CVXPY before the event: <https://www.cvxpy.org/install/>
 
 ## Team Formation
 
-1. Browse the themes below and find one that interests you.
-2. Introduce yourself in the Discord channel for that theme.
-3. Form teams with others in the channel. Try to combine virtual and in-person attendees on each team.
+1. Join the Discord server: <https://discord.gg/4urRQeGBCr>
+2. Browse the themes below and find one that interests you.
+3. Introduce yourself in the text channel for that theme and form teams with others there. Try to combine virtual and in-person attendees on each team.
 
 ## Themes
 
-Work is organized into 10 themes. Each theme has a Discord channel and a directory under `themes/` where teams should commit links to their work and any design docs produced.
+Work is organized into 10 themes. Each theme has a text channel and a voice channel on Discord, as well as a directory under `themes/` where teams should commit links to their work and any design docs produced.
 
 ### Benchmarking
 
@@ -126,7 +126,9 @@ Demos run from 4:15 to 5:15 (60 minutes). Demos should be 3 to 5 minutes.
 
 ## Discord
 
-_Discord link and channel info will be posted here before the event._
+Join the Discord server: <https://discord.gg/4urRQeGBCr>
+
+Each theme has a text channel and a voice channel. Use the **#hackathon-shared** channel for urgent questions or questions about the hackathon event.
 
 ## Contributing
 
