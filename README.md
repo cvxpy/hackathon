@@ -1,142 +1,42 @@
 # CVXPY Hackathon 2026
 
-Welcome to the CVXPY Hackathon 2026! We are excited to see what you build!
+Thanks to all the attendees of the first ever CVXPY Hackathon! We loved all the great projects you created.
 
-## Setup
+## Projects
 
-Install CVXPY before the event: <https://www.cvxpy.org/install/>
+### cvxdual
 
-## Schedule
+**Michael Klamkin** (Georgia Tech) · [github.com/klamike/cvxdual](https://github.com/klamike/cvxdual)
 
-| Time | Activity |
-|------|----------|
-| 9:00 | Welcome and introductions (Zoom) |
-| 9:15 | Theme overview and team formation |
-| 9:45 | Hacking begins |
-| 12:00 | Mid-Day Check-In (Zoom) |
-| 12:30 | Lunch break |
-| 1:15 | Hacking continues |
-| 4:00 | Demo prep |
-| 4:15 | Demos (Zoom) |
-| 5:15 | Wrap-up and closing |
+Automatic dualization for CVXPY. Construct and solve dual problems directly from primal formulations without manual derivation.
 
-We will use Zoom for the introduction, mid-day check-in, and demos.
+### cvxpysym
 
-## Team Formation
+**Saeid Tafazzol** (CooperSurgical) · [github.com/saeidtafazzol/cvxpysym](https://github.com/saeidtafazzol/cvxpysym)
 
-1. Join the Discord server: <https://discord.gg/4urRQeGBCr>
-2. Browse the themes below and find one that interests you.
-3. Introduce yourself in the text channel for that theme and form teams with others there. Try to combine virtual and in-person attendees on each team.
+A light library to convert sympy and casadi symbolic expressions to cvxpy atoms. Useful for sequential convex programming and other forms of nonlinear programming.
 
-## Themes
+### cvxpy-iis
 
-Work is organized into 10 themes. Each theme has a text channel and a voice channel on Discord, as well as a directory under `themes/` where teams should commit links to their work and any design docs produced.
+**Matt Colwell & Sam Machen** (Jacobi Strategies) · [github.com/mbcolwell/cvxpy-iis](https://github.com/mbcolwell/cvxpy-iis)
 
-### Benchmarking
+Irreducible infeasible set reporting for CVXPY. Identifies the minimal subset of constraints causing infeasibility for easier debugging.
 
-Help us understand the performance profiles of the default CVXPY solvers ([Clarabel](https://github.com/oxfordcontrol/Clarabel.rs), [OSQP](https://github.com/osqp/osqp), [SCS](https://github.com/cvxgrp/scs), and [HiGHS](https://github.com/ERGO-Code/HiGHS)).
-We will use your findings to improve automatic solver selection.
+### CvxBasedAgentOrchestration
 
-Reference project:
-- [solver-benchmarks](https://github.com/cvxpy/solver-benchmarks)
+**Arjun Chandran** (UC Berkeley) & **Rohit Makhija** (Stanford CGOE) · [github.com/arjunchandran1999/CvxBasedAgentOrchestration](https://github.com/arjunchandran1999/CvxBasedAgentOrchestration)
 
-### Developer Tools
+End-to-end MVP to compare LP routing with token + VRAM + model-switching penalty against an LLM planner.
 
-Improve the CVXPY developer experience by building debugging and visualization tools. 
 
-Reference projects:
-- [cvxpy-analyzer](https://github.com/cvxpy/cvxpyanalyzer)
-- [cvxpy-debug](https://github.com/SteveDiamond/cvxpy-debug)
+### Convex.jl Broadcasting
 
-### Energy
+**Emi Soroka** (Stanford) · [Convex.jl PR #728](https://github.com/jump-dev/Convex.jl/pull/728)
 
-Optimization is essential to the operation of electrical grids and other power systems.
-Build new projects for energy/power systems.
+Added broadcasting support to Convex.jl for vectorized operations like `.+`, `.-`, and element-wise comparisons.
 
-Reference projects:
-- [cvxpower](https://github.com/cvxgrp/cvxpower)
-- [EECO](https://github.com/we3lab/eeco)
-- [emhass](https://github.com/davidusb-geek/emhass)
+### solver-benchmarks
 
-### Engineering Design
+**Logan Bell** (Stanford), **Michael Howes** (Stanford), **Tim Zheng** (Dalhousie University), and **Rohit Makhija** (Virtue)· [github.com/cvxpy/solver-benchmarks](https://github.com/cvxpy/solver-benchmarks)
 
-Many engineering design problems can be modeled as geometric programs or other types of convex programs.
-Build new projects for engineering design applications.
-
-Reference projects:
-- [gpkit](https://github.com/convexengineering/gpkit)
-
-### Finance
-
-Convex optimization is widely used in finance for portfolio construction. Build new finance projects leveraging CVXPY.
-
-Reference projects:
-- [Cvxportfolio](https://github.com/cvxgrp/cvxportfolio)
-- [PyPortfolioOpt](https://github.com/PyPortfolio/PyPortfolioOpt)
-- [Riskfolio-Lib](https://github.com/dcajasn/Riskfolio-Lib)
-
-### Interfaces
-
-Develop new ways to interact with CVXPY, such as visual editors, database integration, and AMPL-style APIs.
-
-Reference projects:
-- [CVXlab](https://cvxlab.readthedocs.io/en/latest/)
-- [cvxpy-or](https://github.com/SteveDiamond/cvxpy-or)
-
-### Languages
-
-The original CVX* language was [CVX](https://cvxr.com/cvx/) in MATLAB. Besides CVXPY, 
-there is also [Convex.jl](https://github.com/jump-dev/Convex.jl), [CVXR](https://github.com/cvxgrp/CVXR),
-and prototypes in Rust and TypeScript.
-Build a simple CVX* implementation in a new language or extend one of the prototype implementations.
-
-Reference projects:
-- [CVX](https://github.com/cvxr/CVX)
-- [Convex.jl](https://github.com/jump-dev/Convex.jl)
-- [CVXR](https://github.com/cvxgrp/CVXR)
-- [cvxjs](https://github.com/SteveDiamond/cvxjs)
-- [cvxrust](https://github.com/SteveDiamond/cvxrust)
-
-### Optimization Extensions
-
-Build projects leveraging extensions of CVXPY for other types of optimization, 
-such as GCSOPT for Graphs of Convex Sets.
-
-Reference projects:
-- [DBCP](https://github.com/nrgrp/dbcp)
-- [GCSOPT](https://github.com/TobiaMarcucci/gcsopt)
-- [pycvxset](https://github.com/merlresearch/pycvxset)
-- [MOCVXPY](https://github.com/salomonl/mocvxpy)
-
-### Physical Sciences
-
-Use CVXPY in physical sciences such as biology, chemistry, or (quantum) physics.
-
-Reference projects:
-- [qiskit](https://github.com/Qiskit/qiskit)
-
-### Other
-
-Be creative! Any project related to optimization is welcome. It's not required to build on CVXPY.
-
-Reference projects:
-- [lpviz](https://lpviz.net/)
-
-## Demos
-
-Demos run from 4:15 to 5:15 (60 minutes). Demos should be 3 to 5 minutes.
-
-## Discord
-
-Join the Discord server: <https://discord.gg/4urRQeGBCr>
-
-Each theme has a text channel and a voice channel. Use the **#hackathon-shared** channel for urgent questions or questions about the hackathon event.
-
-## Contributing
-
-To submit your project, create a markdown file in the appropriate `themes/<theme-name>/` directory:
-
-1. Pick your theme directory (e.g., `themes/energy/`)
-2. Create a file named after your project (e.g., `themes/energy/my-cool-project.md`)
-3. Use the format shown in [`TEMPLATE.md`](TEMPLATE.md)
-4. Open a pull request adding your markdown file.
+New benchmarks for CVXPY solver performance, including regression problems, knockoff statistics, nearest correlation matrix (SDP), and portfolio optimization.
