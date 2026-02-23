@@ -15,7 +15,7 @@ Thanks to all the attendees of the first ever CVXPY Hackathon! We loved seeing t
 | **Matt Colwell** & **Sam Machen**<br>Jacobi | Irreducible infeasible set reporting for CVXPY. | [GitHub](https://github.com/mbcolwell/cvxpy-iis) |
 | **Michael Howes**<br>Stanford | Regression and knockoff statistics problems for solver-benchmarks. | [GitHub](https://github.com/cvxpy/solver-benchmarks) |
 | **Michael Klamkin**<br>Georgia Tech | Automatic dualization for CVXPY. | [GitHub](https://github.com/klamike/cvxdual) |
-| **Ray & Alan**<br>Stanford | Benchmarking and debugging of the POC CVXPY Rust backend. | |
+| **Revant Kasichainula** & **Alan Xiao**<br>Stanford | Benchmarking and debugging of the POC CVXPY Rust backend. | |
 | **Rohit Makhija**<br>Virtue | Portfolio optimization problem with historical data for solver-benchmarks. | |
 | **Saeid Tafazzol**<br>CooperSurgical | A light library to convert sympy and casadi symbolic expressions to cvxpy atoms. | [GitHub](https://github.com/saeidtafazzol/cvxpysym) |
 | **Tim Zheng**<br>Dalhousie | Nearest correlation matrix (SDP) problems for solver-benchmarks. | [GitHub](https://github.com/cvxpy/solver-benchmarks) |
